@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iframe</title>
+</head>
+<body>
+  <!-- <iframe width="800" height="300" name="frame2" frameborder="1">不支持iframe标签</iframe> -->
+  <a href="//www.sina.com.cn" target="frame1">sina</a>
+  <a href="//www.hao123.com" target="frame1">hao123</a>
+  <!-- <form action="//www.baidu.com/s" target="frame1"> -->
+  <form action="//search.sina.com.cn/" target="frame1">
+    <input type="text" name="c" value="news" hidden>
+    <input type="text" name="ab" placeholder="wefoij" hidden>
+    <input type="text" name="q">
+    <input type="submit" value="新浪一下">
+  </form>
+  <iframe width="800" height="600" name="frame1" frameborder="1">不支持iframe标签</iframe>
+</body>
+</html>
